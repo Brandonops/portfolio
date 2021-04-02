@@ -480,14 +480,13 @@ section {
 
 
 .devicons {
-  font-size: 8em;
+  font-size: 6em;
   color: #26f575;
   margin-bottom: 25px;
 }
 
-.skillsIMG:hover, .devicons:active {
+.skillsIMG:hover, .devicons > span:active {
   background-color: #40826D;
-
   color: white;
   border: 0px solid #ffffff;
   border-radius: 15px 15px 15px 15px;
@@ -503,9 +502,7 @@ section {
   font-size: 20px;
 }
 
-.skillsContainer {
-  display: flex;
-  flex-wrap: wrap;
+.skillsrow {
   justify-content: space-evenly;
 }
 
