@@ -129,6 +129,13 @@
     offset: '80%'
   });
 
+//   const skillsdiv = document.querySelector(".hvr-float-shadow")
+//   const skillcont = document.querySelector(".skillsContainer ")
+//   skillcont.onmouseover= function() {
+//     skillsdiv.className = "skillsIMG hvr-float-shadow rotate-vert-center loaded";
+//     console.log(skillsdiv)
+// }
+
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
@@ -171,13 +178,6 @@
     }
   });
 
-
-  window.onload = function() {
-    const skilldiv = document.querySelector(".rotate-vert-center")
-    skilldiv.className += " loaded";
-    console.log(skilldiv)
-}
-
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
@@ -197,5 +197,6 @@
   $(window).on('load', function() {
     aos_init();
   });
+  
 
 })(jQuery);
