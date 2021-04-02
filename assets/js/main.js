@@ -152,6 +152,7 @@
     });
   });
 
+
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
@@ -170,6 +171,13 @@
     }
   });
 
+
+  window.onload = function() {
+    const skilldiv = document.querySelector(".rotate-vert-center")
+    skilldiv.className += " loaded";
+    console.log(skilldiv)
+}
+
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
@@ -183,7 +191,7 @@
     AOS.init({
       duration: 1000,
       easing: "ease-in-out-back",
-      once: true
+      once: true,
     });
   }
   $(window).on('load', function() {
