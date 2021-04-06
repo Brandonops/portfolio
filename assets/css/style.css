@@ -291,7 +291,7 @@ section #hero {
 }
 
 .section-bg, #about {
-  background: rgba(40, 43, 42, 0.808);
+  background: #38554779;
 }
 
 .section-title {
@@ -523,7 +523,7 @@ section #hero {
 }
 
 .skillsIMG:hover, .devicons > span:active {
-  background-color: #002019;
+  background-color: #00201b;
   color: white;
   border: 0px solid #ffffff;
   border-radius: 15px 15px 15px 15px;
