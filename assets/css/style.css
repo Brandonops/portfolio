@@ -256,9 +256,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #particles-js {
   background-color: rgba(15, 20, 17, 0.76);
-  position: absolute;
-  width: 100vw;
+  position: fixed;
+  width: 100%;
   height: 100vh;
+  z-index: -1;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -290,7 +291,7 @@ section #hero {
 }
 
 .section-bg, #about {
-  background: #1a40be79;
+  background: #3f4041d0;
 }
 
 .section-title {
@@ -858,7 +859,7 @@ section #hero {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-  background-color: #38554779;
+  background-color: #3f4041d0;
 }
 .contact {
   padding-bottom: 130px;
