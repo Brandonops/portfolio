@@ -39,8 +39,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
-  color: #fff;
+  background: #ffd900;
+  color: rgb(156, 156, 156);
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #49ff18;
   transition: background 0.2s ease-in-out;
 }
 
@@ -1038,9 +1038,6 @@ section #hero {
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-  /* background-color: #149ddd !important; */
-}
 
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1130,4 +1127,9 @@ section #hero {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+
+.mobile-nav-toggle i {
+  color: #ffd900;
 }
